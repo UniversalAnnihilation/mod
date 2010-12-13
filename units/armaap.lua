@@ -60,6 +60,7 @@ local unitDef = {
     [[armawac]],
     [[armhawk]],
     [[armbrawl]],
+	[[blade]],
     [[corcrw]],
     [[armpnix]],
     [[corgripn]],
