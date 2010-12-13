@@ -79,12 +79,6 @@ end
 
 function gadget:GameFrame(n)
   if (n == 15) then
-    for _, teamID in ipairs(Spring.GetTeamList()) do
-      local mMax = select(2,Spring.GetTeamResources(teamID, "metal"))
-      Spring.SetTeamResource(teamID, "m", mMax)
-      local eMax = select(2,Spring.GetTeamResources(teamID, "energy"))
-      Spring.SetTeamResource(teamID, "e", eMax)
-    end
     gadgetHandler:RemoveCallIn("UnitCreated")
     gadgetHandler:RemoveCallIn("GameFrame")
   end
