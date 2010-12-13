@@ -1,0 +1,1099 @@
+[NANOBOOM2]
+{
+	name=MEX;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=128;
+	reloadtime=3.6;
+	weaponvelocity=70;
+	areaofeffect=128;
+	edgeeffectiveness=0.75;
+	soundstart=largegun;
+	soundhit=xplosml3;
+	explosiongaf=fx;
+	explosionart=explode2;
+	explosiongenerator=custom:FLASH1;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=10;
+		NANOS=500;
+	}
+}
+[ATOMIC_BLAST]
+{
+	name=AtomicBlastWeapon;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=520;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=480;
+	soundstart=largegun;
+	soundhit=xplonuk3;
+	explosiongenerator=custom:FLASHNUKE480;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=2400;
+	}
+}
+[ATOMIC_BLASTSML]
+{
+	name=AtomicBlastWeapon;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=480;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=320;
+	soundstart=largegun;
+	soundhit=xplonuk3;
+	explosiongenerator=custom:FLASHNUKE320;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=1100;
+	}
+}
+[SMALL_BUILDING]
+{
+	name=Smallbuilding;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=480;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=240;
+	soundstart=largegun;
+	soundhit=xplosml3;
+	explosiongenerator=custom:FLASHSMALLBUILDING;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=900;
+	}
+}
+[MEDIUM_BUILDING]
+{
+	name=Mediumbuilding;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=480;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=360;
+	soundstart=largegun;
+	soundhit=xplomed1;
+	explosiongenerator=custom:FLASHMEDIUMBUILDING;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=1400;
+	}
+}
+[LARGE_BUILDING]
+{
+	name=Largebuilding;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=480;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=480;
+	soundstart=largegun;
+	soundhit=xplolrg4;
+	explosiongenerator=custom:FLASHBIGBUILDING;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=1800;
+	}
+}
+[ESTOR_BUILDING]
+{
+	name=Smallbuilding;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=580;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=520;
+	soundstart=largegun;
+	soundhit=xplolrg4;
+	explosiongenerator=custom:FLASHNUKE480;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=1270;
+	}
+}
+[SMALL_UNIT]
+{
+	name=Smalltank;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=480;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=60;
+	soundstart=largegun;
+	soundhit=xplomed2;
+	explosiongenerator=custom:FLASHSMALLUNIT;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=200;
+	}
+}
+[MEDIUM_UNIT]
+{
+	name=MediumUnit;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=480;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=90;
+	soundstart=largegun;
+	soundhit=xplolrg3;
+	explosiongenerator=custom:FLASHMEDIUMUNIT;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=250;
+	}
+}
+[BIG_UNIT]
+{
+	name=BigKbot;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=480;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=120;
+	soundstart=largegun;
+	soundhit=xplolrg3;
+	explosiongenerator=custom:FLASHBIGUNIT;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=350;
+	}
+}
+[SMALL_BUILDINGEX]
+{
+	name=Smallbuilding;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=480;
+	reloadtime=3.6;
+	weaponvelocity=70;
+	areaofeffect=180;
+	soundstart=largegun;
+	soundhit=xplosml3;
+	explosiongenerator=custom:FLASHSMALLBUILDINGEX;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=80;
+	}
+}
+[MEDIUM_BUILDINGEX]
+{
+	name=Mediumbuilding;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=480;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=260;
+	soundstart=largegun;
+	soundhit=xplomed1;
+	explosiongenerator=custom:FLASHMEDIUMBUILDINGEX;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=200;
+	}
+}
+[LARGE_BUILDINGEX]
+{
+	name=Largebuilding;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=520;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=340;
+	soundstart=largegun;
+	soundhit=xplolrg4;
+	explosiongenerator=custom:FLASHBIGBUILDINGEX;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=600;
+	}
+}
+[BIG_BUILDINGEX]
+{
+	name=Largebuilding;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=520;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=340;
+	soundstart=largegun;
+	soundhit=xplolrg4;
+	explosiongenerator=custom:FLASHBIGBUILDINGEX;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=600;
+	}
+}
+[ESTOR_BUILDINGEX]
+{
+	name=Smallbuilding;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=550;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=420;
+	soundstart=largegun;
+	soundhit=xplolrg4;
+	explosiongenerator=custom:FLASHNUKE360;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=885;
+	}
+}
+[SMALL_UNITEX]
+{
+	name=Smalltank;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=480;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=32;
+	soundstart=largegun;
+	soundhit=xplomed2;
+	explosiongenerator=custom:FLASHSMALLUNITEX;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=10;
+	}
+}
+[BIG_UNITEX]
+{
+	name=BigKbot;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=480;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=64;
+	soundstart=largegun;
+	soundhit=xplolrg3;
+	explosiongenerator=custom:FLASHBIGUNITEX;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=25;
+		L1FIGHTERS=10;
+		L2FIGHTERS=10;
+	}
+}
+[GUNSHIPEX]
+{
+	name=BigKbot;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=480;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=192;
+	soundstart=largegun;
+	soundhit=xplolrg3;
+	explosiongenerator=custom:FLASH2;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=25;
+		GUNSHIPS=50;
+		HGUNSHIPS=50;
+	}
+}
+[CA_EX]
+{
+	name=ConAir;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=480;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=128;
+	soundstart=largegun;
+	soundhit=xplolrg3;
+	explosiongenerator=custom:FLASH2;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=25;
+		VTOL=50;
+	}
+}
+[CORPYRO_BLAST]
+{
+	name=PyroBlast;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=200;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=200;
+	soundstart=largegun;
+	soundhit=xplolrg3;
+	edgeeffectiveness=0.5;
+	explosiongenerator=custom:FLASH4;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=1000;
+	}
+}
+[CRAWL_BLAST]
+{
+	name=CrawlingBomb;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=450;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=432;
+	soundstart=largegun;
+	soundhit=xplonuk3;
+	edgeeffectiveness=0.4;
+	explosiongenerator=custom:FLASHNUKE360;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=3000;
+		COMMANDERS=1250;
+		CRAWLINGBOMBS=199;
+	}
+}
+[CRAWL_BLASTSML]
+{
+	name=WimpyCrawlingBomb;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=400;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=280;
+	soundstart=largegun;
+	soundhit=xplonuk3;
+	edgeeffectiveness=0.35;
+	explosiongenerator=custom:FLASHNUKE280;
+	impulsefactor=0;
+	impulseboost=0;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=1800;
+		COMMANDERS=900;
+		CRAWLINGBOMBS=99;
+	}
+}
+[TINY_BUILDINGEX]
+{
+	name=MEX;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=96;
+	reloadtime=3.6;
+	weaponvelocity=70;
+	areaofeffect=16;
+	soundstart=largegun;
+	soundhit=xplosml3;
+	explosiongenerator=custom:FLASH2;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=5;
+	}
+}
+[FLEA_EX]
+{
+	name=MEX;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=96;
+	reloadtime=3.6;
+	weaponvelocity=70;
+	areaofeffect=20;
+	soundstart=largegun;
+	soundhit=xplosml3;
+	explosiongenerator=custom:FLASH2;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=8;
+	}
+}
+[ARMESTOR_BUILDING]
+{
+	name=Smallbuilding;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=580;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=260;
+	soundstart=largegun;
+	soundhit=xplolrg4;
+	explosiongenerator=custom:FLASHBIGBUILDING;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=950;
+	}
+}
+[ARMESTOR_BUILDINGEX]
+{
+	name=Smallbuilding;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=550;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=210;
+	soundstart=largegun;
+	soundhit=xplolrg4;
+	explosiongenerator=custom:FLASHBIGBUILDINGEX;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=590;
+	}
+}
+[SPYBOMBX]
+{
+	name=spyexplosion;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	paralyzer=1;
+	range=1280;
+	reloadtime=0.3;
+	areaofeffect=360;
+	soundstart=bombrel;
+	soundhit=xplomed4;
+	commandfire=1;
+	firestarter=90;
+	tolerance=7000;
+	edgeeffectiveness=0.75;
+	explosiongenerator=custom:EMPFLASH360;
+	paralyzetime=45;
+	impulsefactor=0;
+	impulseboost=0;
+	cratermult=0;
+	craterboost=0;
+	noselfdamage=1;
+	[DAMAGE]
+	{
+		default=48000;
+		SEADRAGON=30;
+		BLACKHYDRA=30;
+		KROGOTH=30;
+		COMMANDERS=30;
+	}
+}
+[CORMINE6]
+{
+	name=Skuttle;
+	rendertype=4;
+	ballistic=1;
+	range=480;
+	reloadtime=3.6;
+	weaponvelocity=400;
+	areaofeffect=480;
+	edgeeffectiveness=0.3;
+	soundstart=largegun;
+	soundhit=xplonuk3;
+	explosiongenerator=custom:FLASHNUKE480;
+	shakemagnitude=0;
+	shakeduration=0;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=1.25;
+	craterboost=4;
+	noselfdamage=1;
+	[DAMAGE]
+	{
+		default=7500;
+		COMMANDERS=1000;
+		CRAWLINGBOMBS=199;
+	}
+}
+[COMMANDER_BLAST]
+{
+	name=Matter/AntimatterExplosion;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=380;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	soundstart=largegun;
+	soundhit=newboom;
+	explosiongenerator=custom:FLASHNUKE1280;
+	shakemagnitude=600;
+	shakeduration=5;
+	areaofeffect=720;
+	edgeeffectiveness=0.25;
+	impulsefactor=3;
+	impulseboost=3;
+	cratermult=3;
+	craterboost=6;
+	[DAMAGE]
+	{
+		default=50000;
+	}
+}
+[DECOY_COMMANDER_BLAST]
+{
+	name=FakeCommanderExplosion;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=380;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	soundstart=largegun;
+	soundhit=xplolrg3;
+	explosiongenerator=custom:FLASH2;
+	shakemagnitude=600;
+	shakeduration=5;
+	areaofeffect=32;
+	edgeeffectiveness=0.25;
+	impulsefactor=0;
+	impulseboost=0;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=50;
+	}
+}
+[MINE_LIGHT]
+{
+	name=LightMine;
+	rendertype=4;
+	ballistic=1;
+	range=480;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=200;
+	soundstart=largegun;
+	soundhit=xplosml1;
+	edgeeffectiveness=0.5;
+	explosiongenerator=custom:FLASHSMALLBUILDING;
+	impulseboost=0;
+	impulsefactor=0;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=400;
+		MINES=0.5;
+		MINELAYERS=10;
+	}
+}
+[MINE_MEDIUM]
+{
+	name=MediumMine;
+	rendertype=4;
+	ballistic=1;
+	range=480;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=250;
+	soundstart=largegun;
+	soundhit=xplomed1;
+	edgeeffectiveness=0.6;
+	explosiongenerator=custom:FLASHMEDIUMBUILDING;
+	impulseboost=0;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=1000;
+		MINES=0.5;
+		MINELAYERS=20;
+	}
+}
+[MINE_HEAVY]
+{
+	name=HeavyMine;
+	rendertype=4;
+	ballistic=1;
+	range=480;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=300;
+	soundstart=largegun;
+	soundhit=xplolrg3;
+	edgeeffectiveness=0.7;
+	explosiongenerator=custom:FLASHNUKE240;
+	impulseboost=0;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=1250;
+		MINES=0.5;
+		MINELAYERS=25;
+	}
+}
+[FMINE_HEAVY]
+{
+	name=HeavyFloatingMine;
+	rendertype=4;
+	ballistic=1;
+	range=480;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=350;
+	soundstart=largegun;
+	soundhit=xplolrg3;
+	edgeeffectiveness=0.95;
+	explosiongenerator=custom:FLASH4;
+	shakemagnitude=0;
+	shakeduration=0;
+	impulsefactor=0;
+	impulseboost=0;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=1750;
+		MINES=0.5;
+		MINELAYERS=30;
+	}
+}
+[MINE_NUKE]
+{
+	name=NuclearMine;
+	rendertype=4;
+	ballistic=1;
+	range=1000;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=768;
+	soundstart=largegun;
+	soundhit=xplonuk3;
+	waterweapon=1;
+	edgeeffectiveness=0.2;
+	explosiongenerator=custom:FLASHNUKE768;
+	impulsefactor=0.25;
+	impulseboost=0.25;
+	cratermult=2.5;
+	craterboost=5;
+	[DAMAGE]
+	{
+		default=7500;
+		COMMANDERS=1499;
+		MINES=20;
+	}
+}
+[COREBOMB]
+{
+	name=Bombs;
+	rendertype=6;
+	dropped=1;
+	model=bomb;
+	range=1280;
+	reloadtime=9;
+	manualbombsettings=1;
+	burst=5;
+	burstrate=0.28;
+	areaofeffect=168;
+	edgeeffectiveness=0.25;
+	soundstart=bombrel;
+	soundhit=xplomed2;
+	commandfire=1;
+	explosiongenerator=custom:T1COREBOMB;
+	impulsefactor=0.3;
+	impulseboost=0.3;
+	sprayangle=300;
+	accuracy=500;
+	cratermult=0;
+	craterboost=0;
+	noselfdamage=1;
+	collidefriendly=0;
+	avoidfeature=0;
+	[DAMAGE]
+	{
+		default=150;
+		ANTIBOMBER=75;
+		L1SUBS=5;
+		L2SUBS=5;
+		L3SUBS=5;
+	}
+}
+[ARMBOMB]
+{
+	name=Bombs;
+	rendertype=6;
+	dropped=1;
+	model=bomb;
+	range=1280;
+	reloadtime=9;
+	manualbombsettings=1;
+	burst=5;
+	burstrate=0.3;
+	areaofeffect=168;
+	edgeeffectiveness=0.4;
+	soundstart=bombrel;
+	soundhit=xplomed2;
+	commandfire=1;
+	sprayangle=300;
+	accuracy=500;
+	explosiongenerator=custom:T1ARMBOMB;
+	impulsefactor=0.5;
+	impulseboost=0.5;
+	cratermult=0;
+	craterboost=0;
+	noselfdamage=1;
+	collidefriendly=0;
+	avoidfeature=0;
+	[DAMAGE]
+	{
+		default=140;
+		ANTIBOMBER=70;
+		L1SUBS=5;
+		L2SUBS=5;
+		L3SUBS=5;
+	}
+}
+[ARMADVBOMB]
+{
+	name=AdvancedBombs;
+	rendertype=6;
+	dropped=1;
+	model=bomb;
+	range=1280;
+	areaofeffect=144;
+	reloadtime=9;
+	manualbombsettings=1;
+	burst=8;
+	burstrate=0.14;
+	edgeeffectiveness=0.7;
+	soundstart=bombrel;
+	soundhit=xplomed2;
+	commandfire=1;
+	collideFriendly=0;
+	explosiongenerator=custom:ARM_BIGBOMB_EXPLOSION;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	noselfdamage=1;
+	[DAMAGE]
+	{
+		default=250;
+		ANTIBOMBER=100;
+		L1SUBS=5;
+		L2SUBS=5;
+		L3SUBS=5;
+		L1BOMBERS=5;
+		L2BOMBERS=5;
+	}
+}
+[ARM_SEAADVBOMB]
+{
+	name=SeaAdvancedBombs;
+	rendertype=6;
+	dropped=1;
+	model=bomb;
+	range=1280;
+	reloadtime=9;
+	manualbombsettings=1;
+	burst=8;
+	burstrate=0.14;
+	areaofeffect=100;
+	edgeeffectiveness=0.7;
+	soundstart=bombrel;
+	soundhit=xplomed2;
+	commandfire=1;
+	collideFriendly=0;
+	explosiongenerator=custom:ARM_BIGBOMB_EXPLOSION;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	noselfdamage=1;
+	[DAMAGE]
+	{
+		default=210;
+		ANTIBOMBER=95;
+		L1SUBS=5;
+		L2SUBS=5;
+		L3SUBS=5;
+		L1BOMBERS=5;
+		L2BOMBERS=5;
+	}
+}
+[CORE_SEAADVBOMB]
+{
+	name=SeaAdvancedBombs;
+	rendertype=6;
+	dropped=1;
+	model=bomb;
+	range=1280;
+	reloadtime=9;
+	manualbombsettings=1;
+	burst=8;
+	burstrate=0.14;
+	areaofeffect=100;
+	edgeeffectiveness=0.7;
+	soundstart=bombrel;
+	soundhit=xplomed2;
+	commandfire=1;
+	collideFriendly=0;
+	explosiongenerator=custom:CORE_BIGBOMB_EXPLOSION;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	noselfdamage=1;
+	[DAMAGE]
+	{
+		default=210;
+		ANTIBOMBER=95;
+		L1SUBS=5;
+		L2SUBS=5;
+		L3SUBS=5;
+		L1BOMBERS=5;
+		L2BOMBERS=5;
+	}
+}
+[CORADVBOMB]
+{
+	name=AdvancedBombs;
+	rendertype=6;
+	dropped=1;
+	model=bomb;
+	range=1280;
+	reloadtime=9;
+	manualbombsettings=1;
+	burst=8;
+	burstrate=0.14;
+	areaofeffect=180;
+	edgeeffectiveness=0.7;
+	soundstart=bombrel;
+	soundhit=xplomed2;
+	commandfire=1;
+	collideFriendly=0;
+	explosiongenerator=custom:CORE_BIGBOMB_EXPLOSION;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	noselfdamage=1;
+	[DAMAGE]
+	{
+		default=337;
+		ANTIBOMBER=120;
+		L1SUBS=5;
+		L2SUBS=5;
+		L3SUBS=5;
+		L1BOMBERS=5;
+		L2BOMBERS=5;
+	}
+}
+[COMMANDO_MINELAYER]
+{
+	name=CommandoMineLayer;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=300;
+	reloadtime=2;
+	weaponvelocity=1200;
+	areaofeffect=40;
+	burnblow=1;
+	explosiongenerator=custom:NONE;
+	startsmoke=1;
+	impulsefactor=0;
+	rgbcolor=1 0 0;
+	size=0.0001;
+	impulseboost=0;
+	cratermult=0;
+	craterboost=0;
+	noselfdamage=1;
+	firestarter=0;
+	avoidfeature=1;
+	proximitypriority=-10;
+	predictboost=1;
+	[DAMAGE]
+	{
+		default=5;
+	}
+}
+[MECH_BLAST]
+{
+	name=EnergyCoreBomb;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=450;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=180;
+	soundstart=largegun;
+	soundhit=xplonuk3;
+	edgeeffectiveness=0.4;
+	explosiongenerator=custom:FLASHNUKE360;
+	impulsefactor=0.123;
+	impulseboost=0.123;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=2000;
+	}
+}
+[MECH_BLASTSML]
+{
+	name=EnergyCoreBomb;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	range=400;
+	reloadtime=3.6;
+	weaponvelocity=250;
+	areaofeffect=100;
+	soundstart=largegun;
+	soundhit=xplonuk3;
+	edgeeffectiveness=0.35;
+	explosiongenerator=custom:FLASHNUKE280;
+	impulsefactor=0;
+	impulseboost=0;
+	cratermult=0;
+	craterboost=0;
+	[DAMAGE]
+	{
+		default=1000;
+	}
+}

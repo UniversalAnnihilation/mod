@@ -1,0 +1,5 @@
+[SIDE0]
+{
+	name=ARM;
+	commander=ARMCOM;
+}

@@ -1,0 +1,70 @@
+-- snipeflare
+
+return {
+  ["snipeflare"] = {
+    usedefaultexplosions = true,
+    largeflash = {
+      air                = true,
+      class              = [[CBitmapMuzzleFlame]],
+      count              = 1,
+      ground             = true,
+      underwater         = 1,
+      water              = true,
+      properties = {
+        colormap           = [[0.11 0.033 0.5 0.01 0.11 0.033 0.5 0.01 0 0 0 0.01]],
+        dir                = [[dir]],
+        frontoffset        = 0,
+        fronttexture       = [[muzzlefront]],
+        length             = 99,
+        sidetexture        = [[muzzleside]],
+        size               = 12,
+        sizegrowth         = -0.1,
+        ttl                = 45,
+      },
+    },
+    smoke_back = {
+      air                = true,
+      class              = [[CSimpleParticleSystem]],
+      count              = 1,
+      ground             = true,
+      water              = true,
+      properties = {
+        airdrag            = 0.8,
+        colormap           = [[0.055 0.0165 0.25 0.05 0 0 0 0.01]],
+        directional        = false,
+        emitrot            = 0,
+        emitrotspread      = 10,
+        emitvector         = [[dir]],
+        gravity            = [[0, 0.05, 0]],
+        numparticles       = 20,
+        particlelife       = 50,
+        particlelifespread = 5,
+        particlesize       = 0.4,
+        particlesizespread = 0.1,
+        particlespeed      = 1,
+        particlespeedspread = 12,
+        pos                = [[0, 1, 3]],
+        sizegrowth         = 0.5,
+        sizemod            = 1.0,
+        texture            = [[smoke]],
+      },
+    },
+    spikes = {
+      air                = true,
+      class              = [[explspike]],
+      count              = 4,
+      ground             = true,
+      water              = true,
+      properties = {
+        alpha              = 1,
+        alphadecay         = 0.18,
+        color              = [[0.22, 0.066, 1]],
+        dir                = [[-25 r50,-25 r50,-25 r50]],
+        length             = 1,
+        width              = 22,
+      },
+    },
+  },
+
+}
+
