@@ -56,6 +56,11 @@ local unitDef = {
   useBuildingGroundDecal = true,
   workerTime         = 0,
   yardMap            = [[ooooooooooooooooooooooooooooooooooooooooooooooooo]],
+  sfxtypes = {
+    explosiongenerators = {
+      [[custom:nukesmoke]],
+    },
+  },
   sounds = {
     canceldestruct     = [[cancel2]],
     underattack        = [[warning1]],
@@ -103,7 +108,7 @@ local weaponDefs = {
     craterMult         = 3,
     cruise             = 1,
     edgeEffectiveness  = 0.3,
-    energypershot      = 187500,
+    energypershot      = 72000,
     explosionGenerator = [[custom:FLASHNUKE1280]],
     fireStarter        = 0,
     flightTime         = 400,
@@ -116,7 +121,7 @@ local weaponDefs = {
     name               = [[CoreNuclearMissile]],
     noautorange        = 1,
     propeller          = 1,
-    range              = 72000,
+    range              = 140000,
     reloadtime         = 2,
     renderType         = 1,
     selfprop           = true,

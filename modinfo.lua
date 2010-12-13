@@ -1,8 +1,8 @@
 return {
-	name = 'Universal Annihilation v1.0',
+	name = 'Universal Annihilation',
 	description = '',
 	shortname = 'BA',
-	version = 'v1.0',
+	version = '$$$',
 	mutator = 'Official',
 	game = 'Total Annihilation',
 	shortGame = 'TA',
