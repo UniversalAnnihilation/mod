@@ -84,7 +84,6 @@ local unitDef = {
     [[armvader]],
     [[corsktl]],
     [[armdecom]],
-    [[commando]],
   },
   sounds = {
     build              = [[plabwork]],

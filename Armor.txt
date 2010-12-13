@@ -211,7 +211,6 @@
 {
 	armspy=99;
 	corspy=99;
-	commando=99;
 }
 
 [CRAWLINGBOMBS]
