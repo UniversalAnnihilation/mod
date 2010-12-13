@@ -88,17 +88,11 @@ local UnitEffects = {
   },
 
   --// ENERGY STORAGE //--------------------
-  [UnitDefNames["corestor"].id] = {
-    {class='GroundFlash',options=groundFlashCorestor},
-  },
   [UnitDefNames["armestor"].id] = {
     {class='GroundFlash',options=groundFlashArmestor},
   },
 
   --// PLANES still need to do work here //----------------------------
-  [UnitDefNames["armfig"].id] = {
-    {class='AirJet',options={color={0.1,0.4,0.6}, width=6, length=45, piece="rearthrust", onActive=true}},
- },
   [UnitDefNames["armsfig"].id] = {
     {class='AirJet',options={color={0.1,0.4,0.6}, width=6, length=45, piece="thrust", onActive=true}},
  },
@@ -108,30 +102,8 @@ local UnitEffects = {
   [UnitDefNames["armhawk"].id] = {
     {class='AirJet',options={color={0.1,0.4,0.6}, width=6, length=75, piece="rearthrust", onActive=true}},
   },
-  [UnitDefNames["corfink"].id] = {
-    {class='AirJet',options={color={0.3,0.1,0}, width=3, length=35, piece="thrustb", onActive=true}},
-  },
-  [UnitDefNames["cortitan"].id] = {
-    {class='AirJet',options={color={0.3,0.1,0}, width=5, length=65, piece="thrustb", onActive=true}},
-  },
   [UnitDefNames["armlance"].id] = {
    {class='AirJet',options={color={0.1,0.4,0.6}, width=5, length=65, piece="thrust", onActive=true}},
-  },
-  [UnitDefNames["corveng"].id] = {
-    {class='AirJet',options={color={0.3,0.1,0}, width=3, length=42, piece="thrusta1", onActive=true}},
-    {class='AirJet',options={color={0.3,0.1,0}, width=3, length=42, piece="thrusta2", onActive=true}},
-  },
-  [UnitDefNames["corsfig"].id] = {
-    {class='AirJet',options={color={0.3,0.1,0}, width=3, length=42, piece="thrust1", onActive=true}},
-    {class='AirJet',options={color={0.3,0.1,0}, width=3, length=42, piece="thrust2", onActive=true}},
-  },
-  [UnitDefNames["corseap"].id] = {
-    {class='AirJet',options={color={0.3,0.1,0}, width=3, length=42, piece="thrust1", onActive=true}},
-    {class='AirJet',options={color={0.3,0.1,0}, width=3, length=42, piece="thrust2", onActive=true}},
-  },
-  [UnitDefNames["corshad"].id] = {
-    {class='AirJet',options={color={0.6,0.1,0}, width=4, length=52, piece="thrusta1", onActive=true}},
-    {class='AirJet',options={color={0.6,0.1,0}, width=4, length=52, piece="thrusta2", onActive=true}},
   },
   [UnitDefNames["armthund"].id] = {
     {class='ThundAirJet',options={color={0.1,0.4,0.6}, width=2, length=47, piece="thrust1", onActive=true}},
@@ -139,20 +111,8 @@ local UnitEffects = {
     {class='ThundAirJet',options={color={0.1,0.4,0.6}, width=2, length=47, piece="thrust3", onActive=true}},
     {class='ThundAirJet',options={color={0.1,0.4,0.6}, width=2, length=47, piece="thrust4", onActive=true}},
   },
-  [UnitDefNames["corhurc"].id] = {
-    {class='AirJet',options={color={0.9,0.3,0}, width=10, length=80, piece="thrust", onActive=true}},
-  },
   [UnitDefNames["armpnix"].id] = {
     {class='AirJet',options={color={0.1,0.4,0.6}, width=8, length=75, piece="thrust", onActive=true}},
-  },
-  [UnitDefNames["corvamp"].id] = {
-    {class='AirJet',options={color={0.6,0.1,0}, width=3.5, length=65, piece="thrustb", onActive=true}},
-  },
-  [UnitDefNames["corawac"].id] = {
-    {class='AirJet',options={color={0.8,0.2,0}, width=4, length=50, piece="thrust", onActive=true}},
-  },
-  [UnitDefNames["corhunt"].id] = {
-    {class='AirJet',options={color={0.8,0.2,0}, width=4, length=50, piece="thrust", onActive=true}},
   },
  [UnitDefNames["armawac"].id] = {
     {class='AirJet',options={color={0.1,0.4,0.6}, width=3.5, length=50, piece="thrust", onActive=true}},
@@ -167,10 +127,6 @@ local UnitEffects = {
   [UnitDefNames["armdfly"].id] = {
     {class='AirJet',options={color={0.1,0.4,0.6}, width=3.5, length=60, piece="jet1", onActive=true}},
     {class='AirJet',options={color={0.1,0.4,0.6}, width=3.5, length=60, piece="jet2", onActive=true}},
-  },
-  [UnitDefNames["corsb"].id] = {
-    {class='AirJet',options={color={0.6,0.1,0}, width=3.5, length=76, piece="emit1", onActive=true}},
-    {class='AirJet',options={color={0.6,0.1,0}, width=3.5, length=76, piece="emit2", onActive=true}},
   },
   [UnitDefNames["armsb"].id] = {
     {class='AirJet',options={color={0.1,0.4,0.6}, width=3.7, length=70, piece="emit1", onActive=true}},
@@ -190,12 +146,6 @@ if (t.yday>350) then --(t.month==12)
   }
   UnitEffects[UnitDefNames["armdecom"].id] = {
     {class='SantaHat',options={color={1,0.1,0,1}, pos={0,4,0.35}, emitVector={0.3,1,0.2}, width=2.7, height=6, ballSize=0.7, piecenum=8, piece="head"}},
-  }
-  UnitEffects[UnitDefNames["corcom"].id] = {
-    {class='SantaHat',options={color={1,0.1,0,1}, pos={0,0,0.35}, emitVector={0.3,1,0.2}, width=2.7, height=6, ballSize=0.7, piecenum=16, piece="head"}},
-  }
-  UnitEffects[UnitDefNames["cordecom"].id] = {
-    {class='SantaHat',options={color={1,0.1,0,1}, pos={0,0,0.35}, emitVector={0.3,1,0.2}, width=2.7, height=6, ballSize=0.7, piecenum=16, piece="head"}},
   }
 end
 
