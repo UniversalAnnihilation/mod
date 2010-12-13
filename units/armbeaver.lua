@@ -80,7 +80,7 @@ local unitDef = {
     [[armfhp]],
     [[armhp]],
     [[armnanotc]],
-    [[armclaw]],
+    [[cormaw]],
     [[armllt]],
     [[tawf001]],
     [[hllt]],

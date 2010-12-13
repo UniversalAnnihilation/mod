@@ -78,7 +78,7 @@ local unitDef = {
     [[armsy]],
     [[armhp]],
     [[armnanotc]],
-    [[armclaw]],
+    [[cormaw]],
     [[armllt]],
     [[tawf001]],
     [[hllt]],

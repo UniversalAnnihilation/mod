@@ -378,7 +378,6 @@
 	hllt=99;
 	armdf=99;
 	armfast=99;
-	armclaw=99;
 	armpw=99;
 	corak=99;
 	armflash=99;
