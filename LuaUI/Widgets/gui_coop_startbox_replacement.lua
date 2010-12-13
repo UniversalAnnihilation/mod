@@ -224,7 +224,7 @@ function widget:DrawWorld()
         local xn, zn, xp, zp = Spring.GetAllyTeamStartBox(at)
         if (xn and ((xn ~= 0) or (zn ~= 0) or (xp ~= msx) or (zp ~= msz))) then
           --alpha = 0.10 + math.abs(((time*3)%1) - 0.5)*0.08
-          alpha = 0.15
+          alpha = 0.3
           if (at == Spring.GetMyAllyTeamID()) then
             color = { 0, 1, 0, alpha }  --  green
           else
@@ -261,7 +261,7 @@ function widget:DrawInMiniMap(sx, sz)
   local gaiaAllyTeamID
   local gaiaTeamID = Spring.GetGaiaTeamID()
   if (gaiaTeamID) then
-    local _,_,_,_,_,_,atid = Spring.GetTeamInfo(gaiaTeamID)
+    local _,_,_,_,_,atid = Spring.GetTeamInfo(gaiaTeamID)
     gaiaAllyTeamID = atid
   end
 

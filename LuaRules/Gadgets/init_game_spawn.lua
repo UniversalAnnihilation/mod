@@ -57,13 +57,11 @@ end
 local function SpawnStartUnit(teamID)
 	local startUnit = GetStartUnit(teamID)
 	if (startUnit and startUnit ~= "") then
-		Spring.SetTeamResource(teamID, "ms", 0)
-		Spring.SetTeamResource(teamID, "es", 0)
 		-- spawn the specified start unit
 		local x,y,z = Spring.GetTeamStartPosition(teamID)
 		-- snap to 16x16 grid
-		x, z = 16*math.floor((x+8)/16), 16*math.floor((z+8)/16)
-		y = Spring.GetGroundHeight(x, z)
+		-- x, z = 16*math.floor((x+8)/16), 16*math.floor((z+8)/16)
+		-- y = Spring.GetGroundHeight(x, z)
 		-- facing toward map center
 		local facing=math.abs(Game.mapSizeX/2 - x) > math.abs(Game.mapSizeZ/2 - z)
 			and ((x>Game.mapSizeX/2) and "west" or "east")
@@ -71,36 +69,6 @@ local function SpawnStartUnit(teamID)
 		local commanderID = Spring.CreateUnit(startUnit, x, y, z, facing, teamID)
 		-- set the *team's* lineage root
 		Spring.SetUnitLineage(commanderID, teamID, true)
-	
-		-- set start resources, either from mod options or custom team keys
-		local teamOptions = select(7, Spring.GetTeamInfo(teamID))
-		local m = modOptions.startmetal or 1000
-		local e = modOptions.startenergy or 1000
-
-		if (m and tonumber(m) ~= 0) then
-			Spring.SetUnitResourcing(commanderID, "m", 0)
-			Spring.SetTeamResource(teamID, "m", 0)
-			Spring.AddTeamResource(teamID, "m", tonumber(m))
-		end
-		
-		if (e and tonumber(e) ~= 0) then
-			Spring.SetUnitResourcing(commanderID, "e", 0)
-			Spring.SetTeamResource(teamID, "e", 0)
-			Spring.AddTeamResource(teamID, "e", tonumber(e))
-		end
-	
-	end
-end
-
-function gadget:Initialize()
-	local gaiaTeamID = Spring.GetGaiaTeamID()
-	local teams = Spring.GetTeamList()
-	for i = 1,#teams do
-		local teamID = teams[i]
-		if (teamID ~= gaiaTeamID) then
-			Spring.SetTeamResource(teamID, "ms", 0)
-			Spring.SetTeamResource(teamID, "es", 0)
-		end
 	end
 end
 

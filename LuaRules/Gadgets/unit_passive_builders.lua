@@ -26,9 +26,7 @@ local min = math.min
 local max = math.max
 
 local NANOTURRET = {
-  [UnitDefNames["cornanotc"].id] = true,
   [UnitDefNames["armnanotc"].id] = true,
-  [UnitDefNames["cormlv"].id] = true,
   [UnitDefNames["armmlv"].id] = true,
   [UnitDefNames["armck"].id] = true,
   [UnitDefNames["armcv"].id] = true,
@@ -63,19 +61,13 @@ local NANOTURRET = {
 
 local IGNORE_METAL_STALL = {
   [UnitDefNames["armmakr"].id] = true,
-  [UnitDefNames["cormakr"].id] = true,
-  [UnitDefNames["corfmkr"].id] = true,
   [UnitDefNames["armfmkr"].id] = true,
-  [UnitDefNames["cormine1"].id] = true,
-  [UnitDefNames["cormine2"].id] = true,
-  [UnitDefNames["cormine3"].id] = true,
   [UnitDefNames["armmine1"].id] = true,
   [UnitDefNames["armmine2"].id] = true,
   [UnitDefNames["armmine3"].id] = true,
 }
 
 local IGNORE_ENERGY_STALL = {
-  [UnitDefNames["corsolar"].id] = true,
   [UnitDefNames["armsolar"].id] = true,
 }
 

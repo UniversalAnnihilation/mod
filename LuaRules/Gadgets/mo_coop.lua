@@ -25,12 +25,10 @@ if (enabled == 0) then
 end
 
 local COMMANDER = {
-  [UnitDefNames["corcom"].id] = true,
   [UnitDefNames["armcom"].id] = true,
 }
 local comStrings = {
-  [1] = "corcom",
-  [2] = "armcom",
+  [1] = "armcom",
 }
 local CMD_SELFD = CMD.SELFD
 local CMD_INSERT = CMD.INSERT
@@ -57,7 +55,7 @@ for _, teamID in ipairs(Spring.GetTeamList()) do
   if not excludeTeams[teamID] then
     for _, playerID in ipairs(Spring.GetPlayerList(teamID)) do
       if not select(3,Spring.GetPlayerInfo(playerID)) then
-        startPoints[playerID] = {teamID = teamID, commander = comStrings[math.random(2)]}
+        startPoints[playerID] = {teamID = teamID, commander = 'armcom'}
       end
     end
   end
@@ -81,12 +79,6 @@ end
 
 function gadget:GameFrame(n)
   if (n == 15) then
-    for _, teamID in ipairs(Spring.GetTeamList()) do
-      local mMax = select(2,Spring.GetTeamResources(teamID, "metal"))
-      Spring.SetTeamResource(teamID, "m", mMax)
-      local eMax = select(2,Spring.GetTeamResources(teamID, "energy"))
-      Spring.SetTeamResource(teamID, "e", eMax)
-    end
     gadgetHandler:RemoveCallIn("UnitCreated")
     gadgetHandler:RemoveCallIn("GameFrame")
   end
@@ -109,6 +101,7 @@ function gadget:RecvLuaMsg(msg, id)
         startPoints[playerID].y = Spring.GetGroundHeight(x,z)
         startPoints[playerID].z = z
       end
+	--[[
     elseif (msg:find("coop_factionchange",1,true)) then
       local playerID = string.match(msg, ",([^,]+)")
       if id == (playerID * 1) then
@@ -119,6 +112,7 @@ function gadget:RecvLuaMsg(msg, id)
         end
         SendToUnsynced("factionchange",id,startPoints[id].commander)
       end 
+	]]--
     end 
   elseif (msg:find("coop_selfd",1,true)) then
     local playerID,teamID,unitCount = string.match(msg, ",([^,]+),([^,]+),([^,]+)")
@@ -252,7 +246,7 @@ function GameStart()
   gadgetHandler:RemoveCallIn("MousePress")
   gadgetHandler:RemoveSyncAction("startpoint")
   gadgetHandler:RemoveSyncAction("gamestart")
-  gadgetHandler:RemoveSyncAction("factionchange")
+  --gadgetHandler:RemoveSyncAction("factionchange")
   gl.DeleteList(coneList)
   gl.DeleteList(xformList)
   xformList = 0
@@ -297,7 +291,7 @@ function gadget:Initialize()
   gadgetHandler:AddSyncAction("startpoint", StartPoint)
   gadgetHandler:AddSyncAction("gamestart", GameStart)
   gadgetHandler:AddSyncAction("selfdnotify", SelfDNotify)
-  gadgetHandler:AddSyncAction("factionchange", FactionChange)
+  --gadgetHandler:AddSyncAction("factionchange", FactionChange)
   coneList = gl.CreateList(function()
     local h = 80
     local r = 20
@@ -331,14 +325,17 @@ function StartPoint(_,x,z,name,playerID,faction)
     startPoints[playerID].y = Spring.GetGroundHeight(x,z)
     startPoints[playerID].z = z
     startPoints[playerID].name = name
+	--[[
     if faction == "armcom" then
       startPoints[playerID].faction = "(ARM) "
     else
       startPoints[playerID].faction = "(CORE) "
     end
+	]]--
   end
 end
 
+--[[
 function FactionChange(_,playerID, faction)
   if faction == "armcom" then
     startPoints[playerID].faction = "(ARM) "
@@ -346,13 +343,16 @@ function FactionChange(_,playerID, faction)
     startPoints[playerID].faction = "(CORE) "
   end
 end
+]]--
 
+--[[
 function gadget:MousePress(x,y,button)
   if preStart and (button == 3) then
     Spring.SendLuaRulesMsg("coop_factionchange," .. myPlayerID)
   end
   return false
 end
+]]--
 
 function gadget:MapDrawCmd(playerID, cmdType, px, py, pz, label)
   if not preStart then return end
@@ -397,7 +397,8 @@ function gadget:DrawWorld()
         gl.CallList(coneList)
         gl.Translate(0,90,0)
         gl.Billboard()
-        gl.Text(colorStr..startPoints[playerID].faction..startPoints[playerID].name,0,0,25,outlineStr .. "c")
+        --gl.Text(colorStr..startPoints[playerID].faction..startPoints[playerID].name,0,0,25,outlineStr .. "c")
+		gl.Text(colorStr .. startPoints[playerID].name, 0, 0, 25, outlineStr .. "c")
         gl.DepthTest(false)
       gl.PopMatrix()
     end
@@ -436,11 +437,11 @@ function gadget:DrawInMiniMap(sx, sz)
       local color = GetTeamColor(defs.teamID)
       local r, g, b = color[1], color[2], color[3]
       gl.PointSize(7)
-      if (defs.faction == "(ARM) ") then
+      --if (defs.faction == "(ARM) ") then
          gl.Color(0, 0.5, 0.5+(math.random()/2), 1)
-      else
-         gl.Color(0.5+(math.random()/2), 0, 0, 1)
-      end
+      --else
+      --   gl.Color(0.5+(math.random()/2), 0, 0, 1)
+      --end
       gl.BeginEnd(GL.POINTS, function() gl.Vertex(defs.x, defs.z) end)
       gl.PointSize(5)
       gl.Color(r, g, b, 1)

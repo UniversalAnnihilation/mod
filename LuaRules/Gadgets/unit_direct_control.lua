@@ -43,7 +43,6 @@ local badUnitDefs = {
 	UnitDefNames['armraven'].id,
 	UnitDefNames['armsptk'].id,
 	UnitDefNames['cortron'].id,
-	UnitDefNames['cortl'].id,
 	UnitDefNames['armtl'].id,
 }
 
