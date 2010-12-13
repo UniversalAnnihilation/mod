@@ -62,8 +62,8 @@ local function SpawnStartUnit(teamID)
 		-- spawn the specified start unit
 		local x,y,z = Spring.GetTeamStartPosition(teamID)
 		-- snap to 16x16 grid
-		x, z = 16*math.floor((x+8)/16), 16*math.floor((z+8)/16)
-		y = Spring.GetGroundHeight(x, z)
+		-- x, z = 16*math.floor((x+8)/16), 16*math.floor((z+8)/16)
+		-- y = Spring.GetGroundHeight(x, z)
 		-- facing toward map center
 		local facing=math.abs(Game.mapSizeX/2 - x) > math.abs(Game.mapSizeZ/2 - z)
 			and ((x>Game.mapSizeX/2) and "west" or "east")

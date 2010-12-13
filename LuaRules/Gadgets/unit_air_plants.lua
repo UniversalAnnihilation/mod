@@ -24,9 +24,6 @@ local GiveOrderToUnit = Spring.GiveOrderToUnit
 local SetUnitNeutral = Spring.SetUnitNeutral
 
 local AIRPLANT = {
-  [UnitDefNames["corap"].id] = true,
-  [UnitDefNames["coraap"].id] = true,
-  [UnitDefNames["corplat"].id] = true,
   [UnitDefNames["armap"].id] = true,
   [UnitDefNames["armaap"].id] = true,
   [UnitDefNames["armplat"].id] = true

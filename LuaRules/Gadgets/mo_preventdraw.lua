@@ -37,7 +37,6 @@ local COM_BLAST = WeaponDefNames['commander_blast'].id
 local DGUN = WeaponDefNames['arm_disintegrator'].id
 
 local COMMANDER = {
-  [UnitDefNames["corcom"].id] = true,
   [UnitDefNames["armcom"].id] = true,
 }
 

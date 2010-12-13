@@ -27,7 +27,6 @@ local GetCommandQueue = Spring.GetCommandQueue
 local GetFeatureResources = Spring.GetFeatureResources
 local CMD_RESURRECT = CMD.RESURRECT
 local SPY = {}
-SPY[UnitDefNames["corspy"].id] = true
 SPY[UnitDefNames["armspy"].id] = true
 
 function gadget:AllowFeatureBuildStep(builderID, builderTeam, featureID, featureDefID, step)

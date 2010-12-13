@@ -26,9 +26,7 @@ local SetUnitCOBValue = Spring.SetUnitCOBValue
 local DELAY_UNIT_VAR = 1024
 
 local DELAY_UNIT = {
-  [UnitDefNames["screamer"].id] = WeaponDefs[UnitDefNames["screamer"].weapons[1].weaponDef].reload,
   [UnitDefNames["mercury"].id] = WeaponDefs[UnitDefNames["mercury"].weapons[1].weaponDef].reload,
-  [UnitDefNames["corerad"].id] = WeaponDefs[UnitDefNames["corerad"].weapons[1].weaponDef].reload,
   [UnitDefNames["armcir"].id] = WeaponDefs[UnitDefNames["armcir"].weapons[1].weaponDef].reload,
 }
 
