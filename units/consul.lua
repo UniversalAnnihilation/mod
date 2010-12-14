@@ -66,7 +66,6 @@ local unitDef = {
     [[armsolar]],
     [[armmex]],
     [[armvp]],
-    [[corvp]],
     [[armnanotc]],
     [[tawf001]],
     [[hllt]],

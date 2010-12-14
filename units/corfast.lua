@@ -61,8 +61,7 @@ local unitDef = {
   buildoptions = {
     [[armsolar]],
     [[armmex]],
-    [[armvp]],
-    [[corvp]],
+    [[armlab]],
     [[armnanotc]],
     [[tawf001]],
     [[hllt]],
