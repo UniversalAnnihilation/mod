@@ -9,6 +9,7 @@ Major changes
 - Hawk now built at T1
 - Hammer now artillery type kbot (costs adjusted to fit this role)
 - Slashers now storm type unit (Rocko DPS)
+- Samson AA only
 
 Minor changes/fixes
 
