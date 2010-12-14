@@ -1,7 +1,7 @@
 
 function gadget:GetInfo()
 	return {
-		name      = "Initial Resources",
+		name      = "Team Resourcing",
 		desc      = "Sets up team resources",
 		author    = "Niobium",
 		date      = "Jul 24, 2007",
@@ -54,4 +54,9 @@ function gadget:Initialize()
 			Spring.SetTeamResource(teamID, 'e' , startEnergy)
 		end
 	end
+end
+
+function gadget:TeamDied(teamID)
+	Spring.SetTeamShareLevel(teamID, 'metal', 0)
+	Spring.SetTeamShareLevel(teamID, 'energy', 0)
 end
