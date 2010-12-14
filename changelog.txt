@@ -10,7 +10,7 @@ Major changes
 - Hammer now artillery type kbot (costs adjusted to fit this role)
 - Slashers now storm type unit (Rocko DPS)
 
-- Minor changes/fixes
+Minor changes/fixes
 
 - Merl reload script fixed
 - Fatboy firepoint fixed
@@ -20,6 +20,8 @@ Major changes
 - Made T1 art (shellshocker/hammer) hitboxes
 - Fixed stealth units with small jamming radii
 - Units being transported by dragonfly are now stealthy themselves
+- Core nuke silo script changed
+- Can only stockpile one nuke per silo
 
 - Pillager now high trajectory
 - Storm now fires 2 rockets (double DPS)
