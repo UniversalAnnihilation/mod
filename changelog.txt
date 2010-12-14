@@ -1,45 +1,51 @@
-Merged to 1 faction
+7.19 --> UA RC1
 
-Fatboy range 800 --> 700 (currently the same as on maps with 120 gravity)
-Pillager range 1100 --> 1200
-Pillager now high trajectory
-Merl given same characteristics as diplomat (1500 damage, 20 sec reload)
+Major changes
 
-Merl reload script fixed
-Fatboy firepoint fixed
-Samson/Slasher targetting bug fixed
-Passive builder function for every building unit
-Fixed comwreck hitbox
-Made T1 art (shellshocker/hammer) hitboxes
+- Merged to 1 faction
+- Estore now set at 1000/1000 base, Independant of commander
+- Metal maker system reworked, no longer cost E to generate M but have much greater initial cost
+- Commander can no longer be transported by enemy
+- Hawk now built at T1
+- Hammer now artillery type kbot (costs adjusted to fit this role)
+- Slashers now storm type unit (Rocko DPS)
 
-Samson/Jethro/AA tower all do AA tower DPS
-Jethro LOS 377 --> 500
+- Minor changes/fixes
 
-Hammer now artillery type kbot (costs adjusted to fit this role)
-Slashers now storm type unit (Rocko DPS)
-Storm now fires 2 rockets (double DPS)
-Storm costs doubled
-Rocko Metal cost 100 --> 90
+- Merl reload script fixed
+- Fatboy firepoint fixed
+- Samson/Slasher targetting bug fixed
+- Passive builder function for every building unit
+- Fixed comwreck hitbox
+- Made T1 art (shellshocker/hammer) hitboxes
+- Fixed stealth units with small jamming radii
+- Units being transported by dragonfly are now stealthy themselves
 
-Commander can no longer be transported by enemy
+- Pillager now high trajectory
+- Storm now fires 2 rockets (double DPS)
 
-Anti-nuke E cost 60000 --> 30000
-Mobile Anti-nuke E cost 88000 --> 60000
-Mobile Anti-nuke HP 750 --> 2000
-Anti-nuke now bomb resistant
+- Core nuke given Arm nuke Weapon with 180 reload
+- Merl given diplomat weapon charactistics (1500 damage/20 sec reload)
+- Storm costs doubled
+- Samson/Jethro/AA tower all do AA tower DPS
+- Jethro LOS 377 --> 500
+- Rocko Metal cost 100 --> 90
+- Anti-nuke E cost 60000 --> 30000
+- Mobile Anti-nuke E cost 88000 --> 60000
+- Mobile Anti-nuke HP 750 --> 2000
+- Anti-nuke now bomb resistant
+- Adv fusion E store 9000 --> 25000
+- Fusion E store 2500 --> 7500
+- Underwater Fusion E store 2500 --> 7500
+- Hawk E cost 4600 --> 3200
+- Hawk HP 330 --> 100
+- Hawk stealth removed
+- Fatboy range 800 --> 700 (currently the same as on maps with 120 gravity)
+- Pillager range 1100 --> 1200
 
-Adv fusion E store 9000 --> 25000
-Fusion E store 2500 --> 7500
-Underwater Fusion E store 2500 --> 7500
-
-Hawk now built at T1
-Hawk E cost 4600 --> 3200
-Hawk HP 330 --> 100
-Hawk stealth removed
-
-New loadscreens - (Logo by Baracus)
-New Buildpics
-Various new special effects added
+- New loadscreens - (Logo by Baracus)
+- New Buildpics
+- Various new special effects
 
 
 
