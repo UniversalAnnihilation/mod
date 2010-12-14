@@ -34,6 +34,7 @@ local unitDef = {
   iconType           = [[building]],
   idleAutoHeal       = 5,
   idleTime           = 1800,
+  levelGround        = false,
   maxDamage          = 2780,
   maxSlope           = 15,
   maxVelocity        = 0,
