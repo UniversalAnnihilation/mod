@@ -46,7 +46,6 @@ local unitDef = {
   name               = [[Sharpshooter]],
   objectName         = [[ARMSNIPE]],
   onlyTargetCategory = [[NOTAIR]],
-  radarDistanceJam   = 10,
   selfDestructAs     = [[BIG_UNIT]],
   side               = [[ARM]],
   sightDistance      = 455,

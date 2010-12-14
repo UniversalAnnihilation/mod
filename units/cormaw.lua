@@ -50,7 +50,6 @@ local unitDef = {
   noAutoFire         = false,
   noChaseCategory    = [[MOBILE]],
   objectName         = [[CORMAW]],
-  radarDistanceJam   = 8,
   seismicSignature   = 0,
   selfDestructAs     = [[MEDIUM_BUILDING]],
   side               = [[CORE]],
