@@ -170,7 +170,7 @@ local weaponDefs = {
   },
   ARMAAKBOT_MISSILE1 = {
     areaOfEffect       = 64,
-    cegTag             = [[t2aakbot]],
+    cegTag             = [[kbotmissiletrail]],
     canattackground    = false,
     craterBoost        = 0,
     craterMult         = 0,
@@ -221,7 +221,7 @@ local weaponDefs = {
   },
   ARMAAKBOT_MISSILE2 = {
     areaOfEffect       = 24,
-    cegTag             = [[t2aakbot]],
+    cegTag             = [[kbotmissiletrail]],
     canattackground    = false,
     craterBoost        = 0,
     craterMult         = 0,

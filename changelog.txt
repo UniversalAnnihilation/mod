@@ -1,3 +1,5 @@
+Merged to 1 faction
+
 Fatboy range 800 --> 700 (currently the same as on maps with 120 gravity)
 Pillager range 1100 --> 1200
 Pillager now high trajectory
@@ -10,9 +12,8 @@ Passive builder function for every building unit
 Fixed comwreck hitbox
 Made T1 art (shellshocker/hammer) hitboxes
 
-Samson only attack air (same dps as AA tower)
+Samson/Jethro/AA tower all do AA tower DPS
 Jethro LOS 377 --> 500
-Jethro weapon same as slasher
 
 Hammer now artillery type kbot (costs adjusted to fit this role)
 Slashers now storm type unit (Rocko DPS)
@@ -31,15 +32,14 @@ Adv fusion E store 9000 --> 25000
 Fusion E store 2500 --> 7500
 Underwater Fusion E store 2500 --> 7500
 
-Hawk only fighter in game, can be built at T1
+Hawk now built at T1
 Hawk E cost 4600 --> 3200
 Hawk HP 330 --> 100
 Hawk stealth removed
 
-Overdrive style MM system
-Airspeed modoption (change speed across all air units)
-
-New loadscreens
+New loadscreens - (Logo by Baracus)
+New Buildpics
+Various new special effects added
 
 
 

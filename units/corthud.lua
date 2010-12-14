@@ -61,7 +61,7 @@ local unitDef = {
   workerTime         = 0,
   sfxtypes = {
     explosiongenerators = {
-      [[custom:plasmaflarerev]],
+      [[custom:flashmuzzle1]],
     },
   },
   sounds = {
