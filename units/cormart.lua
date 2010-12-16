@@ -109,7 +109,7 @@ local unitDef = {
 
 local weaponDefs = {
   CORE_ARTILLERY = {
-    accuracy           = 960,
+    accuracy           = 650,
     areaOfEffect       = 129,
     ballistic          = true,
     craterBoost        = 0,
