@@ -64,7 +64,6 @@ local unitDef = {
     [[armkam]],
     [[armthund]],
     [[bladew]],
-    [[corvalk]],
     [[armatlas]],
   },
   sfxtypes = {

@@ -5,7 +5,6 @@
 [VTRANS]
 {
 	armatlas=99;
-	corvalk=99;
 }
 
 [L1FIGHTERS]
