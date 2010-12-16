@@ -82,6 +82,7 @@ local unitDef = {
     [[armmine2]],
     [[armcv]],
     [[armstump]],
+	[[armsam]],
     [[armlatnk]],
     [[corlevlr]],
     [[correap]],

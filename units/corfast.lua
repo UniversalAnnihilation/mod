@@ -78,6 +78,7 @@ local unitDef = {
     [[armmine2]],
     [[armcv]],
     [[armpw]],
+	[[armjeth]],
     [[corcan]],
     [[corpyro]],
     [[armwar]],
