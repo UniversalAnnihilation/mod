@@ -59,7 +59,6 @@ local unitDef = {
   upright            = true,
   workerTime         = 150,
   buildoptions = {
-    [[armsolar]],
     [[armmex]],
     [[armlab]],
     [[armnanotc]],

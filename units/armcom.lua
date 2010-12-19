@@ -83,8 +83,6 @@ local unitDef = {
   upright            = true,
   workerTime         = 300,
   buildoptions = {
-    [[armsolar]],
-    [[armwin]],
     [[armmex]],
     [[armmstor]],
     [[armestor]],
@@ -98,7 +96,6 @@ local unitDef = {
     [[armeyes]],
     [[armrad]],
     [[armdrag]],
-    [[armtide]],
     [[armuwmex]],
     [[armuwms]],
     [[armuwes]],

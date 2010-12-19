@@ -64,8 +64,6 @@ local unitDef = {
   unitname           = [[armacv]],
   workerTime         = 250,
   buildoptions = {
-    [[corfus]],
-    [[cafus]],
     [[amgeo]],
     [[armgmm]],
     [[corbhmth]],

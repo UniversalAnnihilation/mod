@@ -63,7 +63,6 @@ local unitDef = {
   unitname           = [[consul]],
   workerTime         = 150,
   buildoptions = {
-    [[armsolar]],
     [[armmex]],
     [[armvp]],
     [[armnanotc]],

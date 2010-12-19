@@ -62,7 +62,6 @@ local unitDef = {
   unitname           = [[armaca]],
   workerTime         = 80,
   buildoptions = {
-    [[corfus]],
     [[amgeo]],
     [[armgmm]],
     [[corbhmth]],

@@ -59,7 +59,6 @@ local unitDef = {
   upright            = true,
   workerTime         = 140,
   buildoptions = {
-    [[corfus]],
     [[amgeo]],
     [[armgmm]],
     [[corbhmth]],

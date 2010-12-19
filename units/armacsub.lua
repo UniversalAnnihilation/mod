@@ -59,7 +59,6 @@ local unitDef = {
   waterline          = 25,
   workerTime         = 300,
   buildoptions = {
-    [[armuwfus]],
     [[armuwmme]],
     [[armuwadves]],
     [[armuwadvms]],

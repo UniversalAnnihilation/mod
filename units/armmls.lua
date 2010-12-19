@@ -56,7 +56,6 @@ local unitDef = {
   unitname           = [[armmls]],
   workerTime         = 400,
   buildoptions = {
-    [[armtide]],
     [[armuwmex]],
     [[armsy]],
     [[asubpen]],

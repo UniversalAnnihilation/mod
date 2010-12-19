@@ -64,9 +64,6 @@ local unitDef = {
   unitname           = [[armcv]],
   workerTime         = 90,
   buildoptions = {
-    [[armsolar]],
-    [[armadvsol]],
-    [[armwin]],
     [[armgeo]],
     [[armmex]],
     [[corexp]],

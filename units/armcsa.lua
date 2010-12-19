@@ -64,7 +64,6 @@ local unitDef = {
   unitname           = [[armcsa]],
   workerTime         = 60,
   buildoptions = {
-    [[armuwfus]],
     [[armuwmme]],
     [[armuwadves]],
     [[armuwadvms]],

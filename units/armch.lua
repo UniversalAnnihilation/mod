@@ -59,9 +59,6 @@ local unitDef = {
   unitname           = [[armch]],
   workerTime         = 110,
   buildoptions = {
-    [[armsolar]],
-    [[armadvsol]],
-    [[armwin]],
     [[armgeo]],
     [[armmex]],
     [[corexp]],
@@ -91,7 +88,6 @@ local unitDef = {
     [[armjamt]],
     [[armdrag]],
     [[ajuno]],
-    [[armtide]],
     [[armuwmex]],
     [[armuwms]],
     [[armuwes]],
