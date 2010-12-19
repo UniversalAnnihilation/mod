@@ -1,4 +1,4 @@
-7.19 --> UA RC1
+7.19 --> UA RC
 
 Major changes
 
@@ -18,10 +18,10 @@ Minor changes/fixes
 - Samson/Slasher targetting bug fixed
 - Passive builder function for every building unit
 - Fixed comwreck hitbox
-- Made T1 art (shellshocker/hammer) hitboxes
+- Made some units hitboxes
 - Fixed stealth units with small jamming radii
 - Units being transported by dragonfly are now stealthy themselves
-- Core nu
+- Core nuke script changed (automatically prepares to fire when loaded)
 - Can only stockpile one nuke per silo
 
 - Pillager now high trajectory
@@ -45,10 +45,13 @@ Minor changes/fixes
 - Hawk stealth removed
 - Fatboy range 800 --> 700 (currently the same as on maps with 120 gravity)
 - Pillager range 1100 --> 1200
+- Moho MM 400 --> 1200
+- Estore and Adv Estore now store 30k and 300k E respectively
 
 - New loadscreens - (Logo by Baracus)
 - New Buildpics
 - Various new special effects
+- Various other tweaks/fixes/changes
 
 
 

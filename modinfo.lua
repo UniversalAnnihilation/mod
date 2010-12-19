@@ -2,7 +2,7 @@ return {
 	name = 'Universal Annihilation',
 	description = '',
 	shortname = 'BA',
-	version = 'RC2',
+	version = '$$$',
 	mutator = 'Official',
 	game = 'Total Annihilation',
 	shortGame = 'TA',
