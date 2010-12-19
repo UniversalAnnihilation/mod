@@ -68,7 +68,6 @@ local unitDef = {
     [[armvp]],
     [[armnanotc]],
     [[tawf001]],
-    [[hllt]],
     [[armpb]],
     [[corvipe]],
     [[armamb]],

@@ -84,7 +84,6 @@ local unitDef = {
     [[cormaw]],
     [[armllt]],
     [[tawf001]],
-    [[hllt]],
     [[corhlt]],
     [[corpun]],
     [[armrl]],

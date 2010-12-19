@@ -64,7 +64,6 @@ local unitDef = {
     [[armlab]],
     [[armnanotc]],
     [[tawf001]],
-    [[hllt]],
     [[armpb]],
     [[corvipe]],
     [[armamb]],
