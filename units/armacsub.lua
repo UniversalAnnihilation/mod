@@ -60,7 +60,6 @@ local unitDef = {
   workerTime         = 300,
   buildoptions = {
     [[armuwmme]],
-    [[armuwadves]],
     [[armuwadvms]],
     [[armuwmmm]],
     [[armplat]],

@@ -61,7 +61,6 @@ local unitDef = {
   buildoptions = {
     [[armuwmex]],
     [[armuwms]],
-    [[armuwes]],
     [[armfmkr]],
     [[armsy]],
     [[armasy]],

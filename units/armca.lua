@@ -66,7 +66,6 @@ local unitDef = {
     [[corexp]],
     [[armamex]],
     [[armmstor]],
-    [[armestor]],
     [[armmakr]],
     [[armaap]],
     [[armlab]],

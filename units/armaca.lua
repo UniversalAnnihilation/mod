@@ -67,7 +67,6 @@ local unitDef = {
     [[corbhmth]],
     [[cormoho]],
     [[cormexp]],
-    [[armuwadves]],
     [[armuwadvms]],
     [[armmmkr]],
     [[armaap]],

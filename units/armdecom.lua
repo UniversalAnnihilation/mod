@@ -80,11 +80,9 @@ local unitDef = {
     [[armmine3]],
     [[armmex]],
     [[armmstor]],
-    [[armestor]],
     [[armmakr]],
     [[armuwmex]],
     [[armuwms]],
-    [[armuwes]],
     [[armfmkr]],
   },
   sounds = {

@@ -85,7 +85,6 @@ local unitDef = {
   buildoptions = {
     [[armmex]],
     [[armmstor]],
-    [[armestor]],
     [[armmakr]],
     [[armlab]],
     [[armvp]],
@@ -98,7 +97,6 @@ local unitDef = {
     [[armdrag]],
     [[armuwmex]],
     [[armuwms]],
-    [[armuwes]],
     [[armfmkr]],
 	[[armsy]],
     [[armsonar]],
