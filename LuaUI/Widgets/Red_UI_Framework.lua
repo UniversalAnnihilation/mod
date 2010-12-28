@@ -120,8 +120,9 @@ local F = {
 		Rect(px,py,sx,sy,color)
 	end
 	
-	if (texture) then
-		TexRect(px,py,sx,sy,texture,texturecolor)
+	if texture then
+		local adj = border and (o.borderwidth or 1) or 0
+		TexRect(px + adj, py + adj, sx - 2 * adj, sy - 2 * adj, texture, texturecolor)
 	end
 	
 	if (o.caption) then
