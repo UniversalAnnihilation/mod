@@ -63,7 +63,6 @@ local unitDef = {
     [[armcv]],
     [[armbeaver]],
     [[armfav]],
-    [[corgator]],
     [[armflash]],
     [[armstump]],
     [[cormist]],
