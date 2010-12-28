@@ -120,9 +120,9 @@ local options={
        desc   = "Determines amount of energy and energy storage that each player will start with",
        type   = "number",
        section= "StartingResources",
-       def    = 1000,
+       def    = 10000,
        min    = 0,
-       max    = 10000,
+       max    = 100000,
        step   = 1,  -- quantization is aligned to the def value
                     -- (step <= 0) means that there is no quantization
 	},

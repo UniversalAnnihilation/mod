@@ -25,7 +25,7 @@ function gadget:Initialize()
 	
 	local modOptions = Spring.GetModOptions()
 	local startMetal  = modOptions and modOptions.startmetal  or 1000
-	local startEnergy = modOptions and modOptions.startenergy or 1000
+	local startEnergy = modOptions and modOptions.startenergy or 10000
 	
 	if modOptions and tonumber(modOptions.mo_coop) == 1 then
 		local teamList = Spring.GetTeamList()
