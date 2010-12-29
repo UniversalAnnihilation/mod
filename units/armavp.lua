@@ -73,6 +73,7 @@ local unitDef = {
     [[armmerl]],
     [[armst]],
     [[armcroc]],
+	[[corseal]],
     [[armyork]],
     [[cormabm]],
     [[armseer]],
