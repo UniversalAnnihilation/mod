@@ -172,12 +172,6 @@ local moveDefs = {
 	},
 	
 	-- Ship
-	DBOAT3 = {
-		crushstrength = 30,
-		footprintx = 3,
-		footprintz = 3,
-		minwaterdepth = 15,
-	},
 	BOAT4 = {
 		crushstrength = 40,
 		footprintx = 4,
